@@ -215,3 +215,30 @@ nav {
     align-items: center;
     gap:5px;
 }
+
+.ea-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 160px;
+}
+
+.ea-heading{
+    font-style: bold;
+    font-size: 40px;
+    font-weight: 700;
+    color: #0e123f;
+    padding: auto;
+    gap: 16px;
+}
+
+.ea-subheading{
+width: 650px;
+font-size: 16px;
+font-weight: 400;
+line-height: 25px;
+opacity: 0.7;
+text-align: center;
+padding: 10px;
+}
