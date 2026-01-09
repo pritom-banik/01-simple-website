@@ -1,19 +1,19 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 .inter-font-family {
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
 }
 
-header{
+header {
     background-color: white
 }
 
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -23,17 +23,17 @@ nav{
     padding: 16px;
 }
 
-.nav-links{
+.nav-links {
     border-color: red;
     display: flex;
     list-style-type: none;
-    gap:32px;
+    gap: 32px;
     margin: 0;
     font-weight: 500;
     cursor: pointer;
 }
 
-.nav-button{
+.nav-button {
     padding: 12.5px 16px;
     color: white;
     background-color: #30B868;
@@ -43,7 +43,7 @@ nav{
     cursor: pointer;
 }
 
-.hero-section{
+.hero-section {
     height: 100vh;
     background: url("../assets/hero-bg.png");
     background-size: cover;
@@ -56,7 +56,7 @@ nav{
 }
 
 
-#early-access{
+#early-access {
     max-width: 229px;
     background-color: white;
     font-size: medium;
@@ -67,7 +67,7 @@ nav{
     color: #30B868;
 }
 
-#hero-heading{
+#hero-heading {
     margin-top: 16px;
     font-style: bold;
     font-size: 72px;
@@ -75,7 +75,7 @@ nav{
     color: white;
 }
 
-#sub-heading{
+#sub-heading {
     margin-top: 16px;
     font-size: 18px;
     font-weight: 400;
@@ -83,16 +83,16 @@ nav{
     color: white;
 }
 
-#hero-button{
+#hero-button {
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align:start;
+    text-align: start;
     margin-top: 32px;
     gap: 16px;
 }
 
-#play-button{
+#play-button {
     padding: 12.5px 16px;
     color: white;
     background-color: transparent;
@@ -104,3 +104,68 @@ nav{
     cursor: pointer;
 }
 
+.note-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+#note-heading {
+    font-style: bold;
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+    padding: 10px;
+    color: #0e123f;
+}
+
+#note-subheading {
+    opacity: 0.7;
+}
+
+.card-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: red;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#card-section {
+    margin: 40px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 24px;
+}
+
+.card {
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 325px;
+    height: 325px;
+    border-radius: 6px;
+    box-shadow: 10px 10px 5px lightblue;
+}
+
+.card-title {
+    font-style: Bold;
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+    padding: 5px;
+}
+
+.card-subtitle {
+    padding: 5px;
+    opacity: 0.7;
+    text-align: center;
+}
