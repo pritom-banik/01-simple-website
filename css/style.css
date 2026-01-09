@@ -93,6 +93,7 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     text-align: start;
     margin-top: 32px;
     gap: 16px;
@@ -119,6 +120,7 @@ nav {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     padding: 20px;
     margin-top: 20px;
 }
@@ -189,6 +191,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
     padding: 20px 120px;
     gap:60px;
 }
@@ -269,6 +272,7 @@ footer{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .social-link{
     display: flex;
