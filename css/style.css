@@ -169,3 +169,49 @@ nav {
     opacity: 0.7;
     text-align: center;
 }
+
+
+.second-brain-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 120px;
+    gap:60px;
+}
+
+#solution {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.solution-text {
+    color: #30B868;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.brain-heading{
+    font-style: bold;
+    font-size: 50px;
+    font-weight: 700;
+    color: #0e123f;
+}
+
+.brain-subheading{
+    opacity: 0.7;
+    padding: 10px 0px;
+    max-width: 500px;
+}
+
+.point-list{
+    list-style-type: none;
+}
+
+.point-list li{
+    display: flex;
+    align-items: center;
+    gap:5px;
+}
